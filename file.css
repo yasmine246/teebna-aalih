@@ -1,0 +1,25 @@
+.container{
+display: flex;
+flex-direction: column;
+}
+.card{
+margin-top:3%;
+}
+header{
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    
+}
+button{
+padding:5px;
+background-color:rgb(144,238,144);
+font-family:"monospace";
+font-weight: 700;
+}
+button:hover{
+
+    background-color: white;
+    color:rgb(144,238,144);
+}
